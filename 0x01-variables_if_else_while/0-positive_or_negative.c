@@ -12,17 +12,19 @@ int main(void)
 {
 	int n;
 
-	if (n > 0)
+	srand(time(0));
+
+	if (n >= 0)
 	{
-		printf("is positive", n);
+		printf("%d is positive", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero", n);
+		printf("%d is zero", n);
 	}
 	else if (n < 0)
 	{
-		printf("is negative", n);
+		printf("%d is negative", n);
 	}
 	return (0);
 }

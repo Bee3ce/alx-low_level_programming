@@ -8,19 +8,22 @@
  */
 int main(void)
 {
-	int n = 0;
+	int n;
+
+	printf("Enter the number n: ");
+	scanf("%d", &n);
 
 	if (n > 0)
 	{
-		printf("is positive");
+		printf("%d is positive", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero");
+		printf("%d is zero", n);
 	}
 		else if (n < 0)
 	{
-		printf("is negative");
+		printf("%d is negative", n);
 	}
 		return (0);
 }

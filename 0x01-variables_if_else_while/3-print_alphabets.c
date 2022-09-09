@@ -10,14 +10,16 @@ int main(void)
 
 	int al;
 
-	for (al = 'a' ; al <= 'z' ; al++);
+	for (al = 'a' ; al <= 'z' ; al++)
+		putchar(al);
+		putchar ('\n');
+	}
+	for (al = 'A' ; al <= 'Z' ; al++)
 	{
 		putchar(al);
+		putchar('\n');
+
+		getchar();
 	}
-	for (al = 'A' ; al <= 'Z' ; al++);
-	{
-		putchar(al);
-	}
-	putchar('\n');
 return (0);
 }

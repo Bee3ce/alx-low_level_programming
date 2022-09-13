@@ -19,7 +19,7 @@ void jack_bauer(void)
 		hours_ones = '0';
 		while (hours_ones < hours_max)
 		{
-			minutes_ones = '0';
+			minutes_tenss = '0';
 			while (minutes_tens < 6)
 			{
 				minutes_ones = '0';

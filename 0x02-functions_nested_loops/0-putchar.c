@@ -3,7 +3,7 @@
 /**
  * main - entry point
  * Description: prints _putchar as a message\n.
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

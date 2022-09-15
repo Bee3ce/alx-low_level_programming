@@ -42,7 +42,8 @@ int main(void)
 			tmpo = f1o + f2o + (f1 + f2) / mx;
 			f1 = f2;
 			f1o = f2o;
-			f2 = tmpo;
+			f2 = tmp;
+			f2o = tmpo;
 			if (i != 98)
 				printf(", ");
 			else

@@ -11,7 +11,7 @@ void print_chessboard(char (*a)[8])
 {
 	int i, j;
 		i = O;
-		j = o;
+		j = O;
 		while (i < 64)
 		{
 			if (i % 8 == O && i != O)
